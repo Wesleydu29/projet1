@@ -1,0 +1,43 @@
+/****** Bloc activités à Marseille ******/
+
+.activites-a-marseille {
+    width: 1,340px;
+    height: 559.02px;
+    padding: 30px;
+    gap: 30px
+}
+.activites-title {
+    width: 1280px;
+    height: 30.02px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.activites-cards {
+    display: flex;
+    width: 1,280px;
+    height: 439px;
+    gap: 30px
+}
+.activites-cards .card {
+    width: 297.5px;
+    height: 439px;
+    border-radius: 20px;
+    padding: 0%;
+}
+
+.activites-cards img {
+    width: 297.5px;
+    height: 380px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.activites-cards .card-content {
+    width: 67%;
+    padding-left: 15px;
+    display: flex;
+}
+.activites-cards .card-title{
+    width: 259.5px;
+    height: 19px;
+    white-space: nowrap;
+}

@@ -71,11 +71,6 @@ a {
     box-sizing: border-box;
 }
 
-/****** Hebergements ***********/
-.hebergements {
-    width: 65%;
-}
-
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -120,7 +115,6 @@ a {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
-
 
 
 

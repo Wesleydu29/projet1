@@ -1,0 +1,136 @@
+/****** Bloc de recherches ******/
+.infos-group {
+    display: flex;
+    flex-direction: column;
+    width: 1,340px;
+    height: 281px;
+    gap: 35px;
+    margin: auto;
+}
+
+.headline {
+    width: 1,340px;
+    height: 53px;
+    gap: 8px;
+    
+}
+/*** barre de recherche ***/
+.barre-de-recherches {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 377px;
+    height: 49px;
+    border-radius: 15px;
+    border: 1px solid #F2F2F2;
+    gap: 24px;
+    margin-top: 20px;
+
+}
+.logo-localisation {
+    display: flex;
+    width: 50px;
+    height: 49px;
+    border-radius: 15px 0px 0px 15px;
+    border: 1px;
+    background-color:#F2F2F2 ;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-localisation i {
+    color: #000000;
+}
+.infos-group form {
+    display: flex;
+    width: auto;
+    height: 49px;
+}
+input {
+    border: none;
+
+}
+.btn-recherche {
+    display: flex;
+    width: 132px;
+    height: 49px;
+    padding: 15px, 16px, 15px, 16px;
+    border-radius: 0px 15px 15px 0px;
+    border: 1px;
+    gap: 10px;
+    background-color: #0065FC;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*** section de filtre ***/
+ .filtres {
+    display: flex;
+    width: 758px;
+    height: 50px;
+    gap: 15px;
+    align-items: center;
+}
+
+.infos-group .btn-filtres {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+
+.btn-filtres :hover{
+    background-color: #DEEBFF;
+}
+
+.filtres button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-1 {
+    width: 173px;
+    height: 50px;
+    padding: 4px, 19px, 4px, 19px;
+    border-radius: 25px;
+    border: 2px solid #d9d9d9;
+    gap: 10px;
+    background-color: white;
+}
+.btn-2 {
+    width: 134px;
+    height: 50px;
+    padding: 4px, 19px, 4px, 19px;
+    border-radius: 25px;
+    border: 2px solid #d9d9d9;
+    gap: 10px;
+    background-color: white;
+}
+.btn-3 {
+    width: 170px;
+    height: 50px;
+    padding: 4px, 19px, 4px, 19px;
+    border-radius: 25px;
+    border: 2px solid #d9d9d9;
+    gap: 10px;
+    background-color: white;
+
+}
+.btn-4 {
+    width: 167px;
+    height: 50px;
+    padding: 4px, 19px, 4px, 19px;
+    border-radius: 25px;
+    border: 2px solid #d9d9d9;
+    gap: 10px;
+    background-color: white;
+}
+
+.infobar {
+    width: 1,340px;
+    height: 24px;
+    gap: 10px;
+}

@@ -1,0 +1,23 @@
+/****** css footer ******/
+footer {
+    width: 1,340px;
+    height: 163px;
+}
+
+.pied-de-page {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #F2F2F2;
+}
+.pied-de-page .section-footer {
+    display: flex;
+    width: 33%;
+    padding: 10px;
+    gap: 15px
+}
+.pied-de-page .txt-footer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}

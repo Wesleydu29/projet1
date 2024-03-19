@@ -1,0 +1,52 @@
+/****** css du Header******/
+header {
+    max-height: 1440px;
+    height: 79px;
+}
+
+.logo-et-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+ .logo-et-menu .logo-container {
+    width: 161.09px;
+    height: 79px;
+    padding: 30px, 50px, 30px, 50px;
+    gap: 10px;
+}
+.logo-et-menu img {
+    width: 61.09px;
+    height: 19px;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 344px;
+    height: 35px;
+    left: 1096px;
+    padding: 0px, 50px, 0px, 50px;
+    gap: 68px
+}
+
+.btn-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 244px;
+    height: 35px;
+}
+
+.btn-hebergements {
+    width: 113px;
+    height: 35px;
+}
+
+.btn-activites {
+    width: 63px;
+    height: 35px;
+}
+.btn-hebergements:hover,
+.btn-activites:hover {
+    color: #0065FC;
+    text-decoration: overline 2px;
+}
