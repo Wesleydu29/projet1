@@ -4,18 +4,20 @@ header {
     height: 79px;
 }
 
-.logo-et-menu {
+nav {
     display: flex;
     justify-content: space-between;
 }
 
- .logo-et-menu .logo-container {
+ nav .logo-container {
+    display: flex;
+    align-items: center;
     width: 161.09px;
     height: 79px;
     padding: 30px, 50px, 30px, 50px;
     gap: 10px;
 }
-.logo-et-menu img {
+nav img {
     width: 61.09px;
     height: 19px;
 }
@@ -45,8 +47,30 @@ header {
     width: 63px;
     height: 35px;
 }
-.btn-hebergements:hover,
-.btn-activites:hover {
+nav a:hover {
     color: #0065FC;
-    text-decoration: overline 2px;
+    border-top: 2px solid #0065FC;
+    padding-top: 6px;
+}
+
+/*** MEDIA QUERY ***/ 
+
+@media (max-width: 1024px) {
+    nav {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 767.98px) {
+    nav {
+        width: 335px;
+        height: 115px;
+        display: flex;
+        flex-direction: column;
+    }
+    nav .logo-container {
+        display: flex;
+        align-items: center;
+    }
 }

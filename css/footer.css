@@ -21,3 +21,22 @@ footer {
     flex-direction: column;
     padding-left: 10px;
 }
+/*** MEDIA QUERY ***/
+@media (max-width: 1024px) {
+    .pied-de-page {
+        display: flex;
+        width: 924px;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .pied-de-page {
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+    }
+    .pied-de-page .section-footer {
+        width: 100%;
+    }
+}
