@@ -1,42 +1,39 @@
 /****** css footer ******/
-footer {
-    width: 1,340px;
-    height: 163px;
-}
 
-.pied-de-page {
+footer nav {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     background-color: #F2F2F2;
+    margin-top: 15px;
 }
-.pied-de-page .section-footer {
+nav .section-footer {
     display: flex;
     width: 33%;
     padding: 10px;
-    gap: 15px
 }
-.pied-de-page .txt-footer {
-    display: flex;
+nav .txt-footer {
     flex-direction: column;
     padding-left: 10px;
 }
 /*** MEDIA QUERY ***/
-@media (max-width: 1024px) {
-    .pied-de-page {
+@media screen and (max-width: 1024px) {
+    footer nav {
         display: flex;
-        width: 924px;
+        width: 100%;
     }
 }
 
 
-@media (max-width: 767.98px) {
-    .pied-de-page {
-        width: 375px;
+@media screen and (max-width: 767.98px) {
+    footer nav {
         display: flex;
         flex-direction: column;
     }
-    .pied-de-page .section-footer {
+    nav .section-footer {
         width: 100%;
+    }
+    .section-footer .txt-footer {
+        width: 66%;
     }
 }

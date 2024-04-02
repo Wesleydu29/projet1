@@ -2,30 +2,29 @@
 .infos-group {
     display: flex;
     flex-direction: column;
-    width: 1,340px;
     gap: 35px;
+    margin-top: 40px;
 }
 
 .headline {
-    width: 1,340px;
-    height: 53px;
     gap: 8px;
+    flex-wrap: wrap;
 }
 /*** barre de recherche ***/
 form {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     width: 377px;
     height: 49px;
     border-radius: 15px;
-    margin-top: 15px;
     gap: 24px;
+    border: 1px solid #F2F2F2;
 }
 
 .logo-localisation {
     display: flex;
     width: 50px;
-    height: 49px;
     border-radius: 15px 0px 0px 15px;
     border: 1px;
     background-color:#F2F2F2 ;
@@ -48,11 +47,11 @@ input {
     padding: 15px, 16px, 15px, 16px;
     border-radius: 0px 15px 15px 0px;
     border: 1px;
-    gap: 10px;
     background-color: #0065FC;
     color: white;
     justify-content: center;
     align-items: center;
+    outline: 2px solid #0065FC;
 }
 
 
@@ -60,15 +59,13 @@ input {
 /*** section de filtre ***/
  .filtres {
     display: flex;
-    width: 758px;
-    height: 50px;
+    width: 60%;
     gap: 15px;
     align-items: center;
 }
 
 .infos-group .btn-filtres {
     display: flex;
-    flex-direction: row;
     gap: 15px;
 
 }
@@ -122,6 +119,7 @@ input {
 }
 .btn-info {
     width: 24px;
+    height: 24px;
     border: 1px solid #d9d9d9;
     border-radius: 100%;
     background-color: white;
@@ -131,14 +129,12 @@ input {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 1,340px;
     gap: 10px;
-    margin-bottom: 20px;
 }
 
 /*** MEDIA QUERY ***/
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .infos-group {
         width: 100%;
     }
@@ -147,11 +143,10 @@ input {
     }
     .filtres {
         display: flex;
-        justify-content: flex-start;
-        width: 668px;
-        height: 91px;
+        width: 66%;
         flex-direction: column;
         gap: 20px;
+        align-items: flex-start;
     }
     .btn-1 {
         width: 167px;
@@ -170,22 +165,35 @@ input {
     }
 }
 
-@media (max-width: 767.98px) {
+@media screen and (max-width: 767.98px) {
     .infos-group {
-        width: 375px;
-    }
-    .headline {
-        width: 335px;
+        width: 100%;
     }
     .filtres {
+        width: 100%;
         display: flex;
-        flex-direction: column;
-        width: 335px;
-        height: 161px;
         gap: 20px;
     }
     .filtres .btn-filtres {
-        display: flex;
+        width: 100%;
         flex-wrap: wrap;
     }
+    .btn-recherche i {
+        color: white;
+    }
+    .btn-recherche span {
+        display: none;
+    }
+    .btn-recherche {
+        width: 49px;
+        border-radius: 15px;
+    }
+    form {
+        width: 100%;
+    }
+    .filtres button {
+        width: 48%;
+        margin-bottom: 10px;
+    }
+    
 }

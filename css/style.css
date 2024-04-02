@@ -156,8 +156,11 @@ a {
     .hebergements-and-populaires {
         flex-direction: column-reverse;
     }
+    section.populaires {
+        border-radius: 0px;
+    }
     .populaires {
-        width: 375px;
+        width: 100%;
         padding: 30px, 20px, 30px, 20px;
     }
 
@@ -168,7 +171,7 @@ a {
     }
 
     .populaires-cards a {
-        width: 335px;
+        width: 100%;
     }
 
     .populaires-cards .card-title {
