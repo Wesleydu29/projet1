@@ -7,15 +7,15 @@ footer nav {
     background-color: #F2F2F2;
     margin-top: 15px;
 }
-nav .section-footer {
+footer nav ul {
     display: flex;
+    flex-direction: column;
     width: 33%;
     padding: 10px;
+    gap: 10px;
+    list-style-type: none;
 }
-nav .txt-footer {
-    flex-direction: column;
-    padding-left: 10px;
-}
+
 /*** MEDIA QUERY ***/
 @media screen and (max-width: 1024px) {
     footer nav {
@@ -32,8 +32,6 @@ nav .txt-footer {
     }
     nav .section-footer {
         width: 100%;
-    }
-    .section-footer .txt-footer {
-        width: 66%;
+        padding: 0;
     }
 }

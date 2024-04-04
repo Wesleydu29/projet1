@@ -130,6 +130,7 @@ input {
     flex-direction: row;
     align-items: center;
     gap: 10px;
+    margin-bottom: 35px;
 }
 
 /*** MEDIA QUERY ***/
@@ -167,16 +168,17 @@ input {
 
 @media screen and (max-width: 767.98px) {
     .infos-group {
-        width: 100%;
+        width: 90%;
+        margin: auto;
     }
     .filtres {
         width: 100%;
         display: flex;
-        gap: 20px;
     }
     .filtres .btn-filtres {
         width: 100%;
         flex-wrap: wrap;
+        gap: 15px 2%;
     }
     .btn-recherche i {
         color: white;

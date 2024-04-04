@@ -12,10 +12,15 @@
 .fa-solid {
     color: var(--main-color);
 }
+html {
+    width: 100vw;
+    overflow-x: hidden;
+}
 
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .main-container {
@@ -180,5 +185,8 @@ a {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+    .main-container {
+        padding: 0;
     }
 }
