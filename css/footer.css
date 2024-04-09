@@ -10,7 +10,7 @@ footer nav {
 footer nav ul {
     display: flex;
     flex-direction: column;
-    width: 33%;
+    width: 100%;
     padding: 10px;
     gap: 10px;
     list-style-type: none;

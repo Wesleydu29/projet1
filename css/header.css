@@ -19,6 +19,15 @@ header nav .menu {
     gap: 68px
 }
 
+header nav a {
+    padding-top: 6px;
+    border-top: 2px solid transparent;
+}
+header nav .btn-hebergements, header nav .btn-activites {
+    display: flex;
+    justify-content: center;
+}
+
 header nav .btn-menu {
     display: flex;
     justify-content: space-between;
@@ -27,8 +36,7 @@ header nav .btn-menu {
 
 header nav a:hover {
     color: #0065FC;
-    border-top: 2px solid #0065FC;
-    padding-top: 6px;
+    border-color: #0065FC;
 }
 
 /*** MEDIA QUERY ***/ 
