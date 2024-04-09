@@ -37,6 +37,7 @@
     flex: 1;
     align-items: center;
     box-sizing: border-box;
+    padding-left: 15px;
 }
 
 /*** MEDIA QUERY ***/
@@ -60,7 +61,6 @@
     }
     .activites-cards .card-content {
         width: 100%;
-        padding-left: 15px;
     }
     .activites-cards .card-title {
         width: 100%;
@@ -83,6 +83,8 @@
     }
     .activites-cards a {
         width: 100%;
+        min-width: 100%;
+        max-width: 100%;
     }
     .activites-cards .card {
         width: 100%;
