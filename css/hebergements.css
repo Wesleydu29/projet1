@@ -16,11 +16,20 @@
     flex-wrap: wrap;
     gap: 15px 2%;
 }
+.hebergements-cards .card {
+    height: 100%;
+    box-sizing: border-box;
+}
+
 .hebergements-cards .card-content {
     flex-direction: column;
     padding: 0px 15px 0px 15px;
 }
 
+.afficher-plus h3 {
+    margin: 0;
+    margin-top: 30px;
+}
 
 .hebergements-cards img {
     width: 100%;
@@ -60,5 +69,4 @@
     .hebergements-cards img {
         width: 100%;
     }
-    
 }

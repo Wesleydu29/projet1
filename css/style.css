@@ -13,8 +13,7 @@
     color: var(--main-color);
 }
 html {
-    width: 100vw;
-    overflow-x: hidden;
+    width: 100%;
 }
 
 body {

@@ -8,7 +8,7 @@ header nav {
 header nav img {
     width: 61.09px;
     height: 19px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 header nav .menu {
     display: flex;
@@ -20,7 +20,7 @@ header nav .menu {
 }
 
 header nav a {
-    padding-top: 6px;
+    padding-top: 10px;
     border-top: 2px solid transparent;
 }
 header nav .btn-hebergements, header nav .btn-activites {
@@ -67,7 +67,6 @@ header nav a:hover {
     }
     header nav .btn-menu {
         width: 100%
-
     }
     header nav .menu {
         width: 100%;
