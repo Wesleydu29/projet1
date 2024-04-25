@@ -6,10 +6,15 @@
     margin-top: 40px;
 }
 
-
 .headline {
     gap: 8px;
     flex-wrap: wrap;
+}
+.infos-group .headline-title {
+    margin-bottom: 0;
+}
+.infos-group .headline-subtitle {
+    margin-top: 8px;
 }
 /*** barre de recherche ***/
 form {
@@ -72,7 +77,6 @@ input {
 .infos-group .btn-filtres {
     display: flex;
     gap: 15px;
-
 }
 
 .btn-filtres :hover{
